@@ -6,7 +6,7 @@ A portfolio website for a multi-skilled engineer specializing in houseboat maint
 
 ## Live Preview
 
-The site is now **live** at the custom domain, deployed via **Vercel** and connected through **IONOS**:
+The site is now **live** at the custom domain, deployed via **GitHub Pages** and connected through **IONOS**:
 
 [https://www.love-innovations.com](https://www.love-innovations.com)
 
