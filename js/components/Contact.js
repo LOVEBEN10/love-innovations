@@ -29,18 +29,8 @@ export default class Contact {
                                     <i data-lucide="phone" class="w-5 h-5 text-orange-500"></i>
                                 </div>
                                 <div class="space-y-1">
-                                    <div class="text-muted-foreground">+44 7394 065896</div>
+                                    <div class="text-muted-foreground">+44 7983 620 380</div>
                                     <div class="text-sm text-muted-foreground">Available 9AM - 6PM, Mon - Fri</div>
-                                </div>
-                            </div>
-
-                            <div class="flex items-start space-x-4">
-                                <div class="p-3 bg-orange-500/10 border border-orange-500/20 mt-1">
-                                    <i data-lucide="mail" class="w-5 h-5 text-orange-500"></i>
-                                </div>
-                                <div class="space-y-1">
-                                    <div class="text-muted-foreground">(via contact form)</div>
-                                    <div class="text-sm text-muted-foreground">Response within 24 hours</div>
                                 </div>
                             </div>
 
@@ -55,83 +45,6 @@ export default class Contact {
                             </div>
                         </div>
                     </div>
-                </div>
-
-                <!-- Contact Form -->
-                <div class="animate-on-scroll delay-400">
-                    <form id="contact-form" action="https://formspree.io/f/xrbbolzo" method="POST" class="space-y-6">
-                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                            <div>
-                                <label for="name" class="block text-sm text-muted-foreground mb-2">Name *</label>
-                                <input 
-                                    type="text" 
-                                    id="name" 
-                                    name="name" 
-                                    required 
-                                    class="text-black w-full px-4 py-3 bg-background border border-border focus:border-orange-500 focus:outline-none transition-colors"
-                                    placeholder="Your full name"
-                                >
-                            </div>
-                            <div>
-                                <label for="email" class="block text-sm text-muted-foreground mb-2">Email *</label>
-                                <input 
-                                    type="email" 
-                                    id="email" 
-                                    name="email" 
-                                    required 
-                                    class="text-black w-full px-4 py-3 bg-background border border-border focus:border-orange-500 focus:outline-none transition-colors"
-                                    placeholder="your.email@example.com"
-                                >
-                            </div>
-                        </div>
-
-                        <div>
-                            <label for="phone" class="block text-sm text-muted-foreground mb-2">Phone</label>
-                            <input 
-                                type="tel" 
-                                id="phone" 
-                                name="phone" 
-                                class="text-black w-full px-4 py-3 bg-background border border-border focus:border-orange-500 focus:outline-none transition-colors"
-                                placeholder="+44 7XXX XXXXXX"
-                            >
-                        </div>
-
-                        <div>
-                            <label for="message" class="block text-sm text-muted-foreground mb-2">Project Details *</label>
-                            <textarea 
-                                id="message" 
-                                name="message" 
-                                rows="5" 
-                                required 
-                                class="text-black w-full px-4 py-3 bg-background border border-border focus:border-orange-500 focus:outline-none transition-colors resize-vertical"
-                                placeholder="Please describe your project in detail. Include any specific requirements, materials preferences, or questions you have..."
-                            ></textarea>
-                        </div>
-
-                        <div class="flex items-start space-x-3">
-                            <input 
-                                type="checkbox" 
-                                id="consent" 
-                                name="consent" 
-                                required 
-                                class="mt-1 text-orange-500 focus:ring-orange-500 border-border"
-                            >
-                            <label for="consent" class="text-sm text-muted-foreground">
-                                I consent to being contacted about my project enquiry. Your details will be kept secure and not shared with third parties. *
-                            </label>
-                        </div>
-
-                        <button 
-                            type="submit" 
-                            class="w-full bg-orange-500 hover:bg-orange-600 text-white py-4 px-6 tracking-wide transition-all duration-300 hover:shadow-lg disabled:opacity-50 disabled:cursor-not-allowed"
-                            id="submit-btn"
-                        >
-                            <span class="flex items-center justify-center space-x-2">
-                                <span>SEND MESSAGE</span>
-                                <i data-lucide="send" class="w-4 h-4"></i>
-                            </span>
-                        </button>
-                    </form>
                 </div>
             </div>
         `;
